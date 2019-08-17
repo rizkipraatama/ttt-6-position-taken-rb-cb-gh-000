@@ -5,6 +5,7 @@ def input_to_index(input)
 end
 
 def position_taken(board, inde)
+  index=input_to_index(inde)
   if board[index] == " "
     return false
   elsif board[index] == ""
