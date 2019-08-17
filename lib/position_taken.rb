@@ -11,5 +11,6 @@ def position_taken(board, index)
     return true
   end
 end
+
 board = ["","","","","","","","",""]
 position_taken(board, 5)
