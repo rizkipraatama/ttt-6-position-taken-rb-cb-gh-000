@@ -7,6 +7,6 @@ end
 def position_taken(array, index)
   if array[index] == " "
     return true
-  else 
+  else
     return false
 end
