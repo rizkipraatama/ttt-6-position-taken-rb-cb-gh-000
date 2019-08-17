@@ -12,5 +12,5 @@ def position_taken(board, index)
   end
 end
 
-board = ["","","","","","","","",""]
+board = ["","","","","","X","","",""]
 puts position_taken(board, 5)
