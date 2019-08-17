@@ -3,3 +3,10 @@ def changetoindex(input)
   newint = input.to_i
   return newint - 1
 end
+
+def position_taken(array, index)
+  if array[index] == " "
+    return true
+  else 
+    return false
+end
