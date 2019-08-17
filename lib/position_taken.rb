@@ -4,8 +4,7 @@ def input_to_index(input)
   return newint - 1
 end
 
-def position_taken?(board, inde)
-  index=input_to_index(inde)
+def position_taken?(board, index)
   if board[index] == " "
     return false
   elsif board[index] == ""
